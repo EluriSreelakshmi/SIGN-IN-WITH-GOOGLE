@@ -1,0 +1,75 @@
+/* General styling for the entire application */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Dashboard container styling */
+.dashboard {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Profile image styling */
+.dashboard img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Heading and description styling */
+.dashboard h1 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 22px; /* Adjusted for smaller text */
+}
+
+.dashboard h3 {
+    color: #555;
+    font-size: 14px; /* Adjusted for smaller text */
+    margin-bottom: 20px;
+}
+
+.dashboard p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Logout button styling */
+.dashboard button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.dashboard button:hover {
+    background-color: #e55a50;
+}
+
+/* Welcome section at the top */
+.welcome-text {
+    margin-bottom: 15px;
+    font-size: 18px; /* Adjusted for smaller text */
+    color: #333;
+}
