@@ -1,9 +1,3 @@
-# Google Login MERN Project
-  ## Prerequisites:
-1. Node.js and npm installed: Download from https://nodejs.org  
-2. A Google account for Google OAuth setup  
-3. A MongoDB Atlas account: Create at https://www.mongodb.com/cloud/atlas  
-
  # Project Setup:
 
 ###1. Set Up Google OAuth
