@@ -35,11 +35,11 @@
 
   ENV FILE MUST BE AS FOLLOWS:                                                                                                              
    PORT=8080                                                                                                              
-   MONGODB_URL=<your-mongodb-connection-string>                                                                                                              
-   GOOGLE_CLIENT_ID=<your-google-client-id>                                                                                                              
-   GOOGLE_CLIENT_SECRET=<your-google-client-secret>                                                                                                              
-   JWT_SECRET=your_jwt_secret                                                                                                              
-   JWT_TIMEOUT=1d                                                                                                              
+   MONGODB_URL                                                                                                             
+   GOOGLE_CLIENT_ID                                                                                                              
+   GOOGLE_CLIENT_SECRET                                                                                                              
+   JWT_SECRET                                                                                                            
+   JWT_TIMEOUT                                                                                                          
 
 
 
